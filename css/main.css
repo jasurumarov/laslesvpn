@@ -659,6 +659,17 @@ main {
 
 }
 
+@media (max-width: 396px) {
+
+    .netflix {
+        margin-bottom: 50px;
+    }
+    .discord {
+        margin-bottom: 60px;
+    }
+
+}
+
 @media (max-width: 350px) {
 
     .hero-section-right img {
