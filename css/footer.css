@@ -1,0 +1,90 @@
+footer {
+    padding: 200px 0 100px 0;
+    background: #F8F8F8;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-desc {
+    max-width: 340px;
+    color: #4F5665;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+    margin-top: 26px;
+}
+
+.cert {
+    color: #AFB5C0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;  
+}
+.vpnWord {
+    color: #AFB5C0;
+    font-family: Rubik500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footer-right {     
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+}
+
+.footer-list-heading {
+    color: #0B132A;
+    font-family: Rubik500;
+    font-size: 18px;
+    padding-bottom: 10px;
+    line-height: 30px; 
+}
+
+.footer-listItem-link {
+    color: #4F5665;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+@media (max-width: 976px) {
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .footer-left {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 390px) {
+
+    .footer-right {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+}
